@@ -1,16 +1,48 @@
-# React + Vite
+# 🌦️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Weather App built using React that fetches real-time weather data from a Weather API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search Weather by City
+- Real-Time Temperature
+- Weather Conditions
+- Responsive UI
+- Error Handling
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS / Tailwind CSS
+- Fetch API / Axios
+- OpenWeather API
 
-## Expanding the ESLint configuration
+## ⚡ Run Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 🔑 API Setup
+
+Create a `.env` file:
+
+```env
+VITE_API_KEY=your_api_key
+```
+
+## 📚 React Concepts Used
+
+- Components
+- JSX
+- useState Hook
+- useEffect Hook
+- API Calls
+- Conditional Rendering
+- Event Handling
+- Form Handling
+
+
+
