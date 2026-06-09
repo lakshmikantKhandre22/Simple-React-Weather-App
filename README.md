@@ -18,20 +18,9 @@ A simple Weather App built using React that fetches real-time weather data from 
 - Fetch API / Axios
 - OpenWeather API
 
-## ⚡ Run Project
 
-```bash
-npm install
-npm run dev
-```
 
-## 🔑 API Setup
 
-Create a `.env` file:
-
-```env
-VITE_API_KEY=your_api_key
-```
 
 ## 📚 React Concepts Used
 
